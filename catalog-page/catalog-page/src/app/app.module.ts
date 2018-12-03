@@ -1,21 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CatalogFilterComponent } from './catalog-filter/catalog-filter.component';
-// import { CardsComponent } from './cards/cards.component';
+
+import { CardComponent } from './components/card/card.component';
+import { CatalogFilterComponent } from './components/catalog-filter/catalog-filter.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     CatalogFilterComponent,
-    // CardsComponent
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

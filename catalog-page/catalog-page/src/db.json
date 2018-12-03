@@ -1,0 +1,40 @@
+{
+ "courses": [
+   {
+     "batchtype":"open-batch",
+     "description": "Untitled Collection",
+     "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/raybn/raybn4005742772/raybn4005742772_q2_2-0._UX357_QL90_.jpg",
+     "metaData": {"identifier": "do_21254999338653286411349", "mimeType": "application/vnd.ekstep.content-collection", "framework": "up_k-12_3", "contentType": "Course"},
+     "name": " creation 183",
+   "rating": "0",
+   "progress":0,
+   "enrolled" :true
+   },
+   {
+    "batchtype":"closed-batch",
+   "description": "Test Couerse",
+   "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/raybn/raybn4005742772/raybn4005742772_q2_2-0._UX357_QL90_.jpg ",
+   "metaData": {"identifier": "do_2124516080583720961106", "mimeType": "application/vnd.ekstep.content-collection", "framework": "NCF", "contentType": "Course"},
+   "name": "02032018JP",
+   "rating": "0"
+ },
+ {
+  "batchtype":"open-batch",
+  "description": "undefined",
+   "image": "https://ekstep-public-qa.s3-ap-south-1.amazonaws.com/content/do_2124764914572083201435/artifact/722_239_1475732479_1475732665189.thumb.jpg ",
+  " metaData": {"identifier": "do_2124764914572083201435", "mimeType": "application/vnd.ekstep.content-collection", "framework": "atl", "contentType": "Course"},
+   "name": "0604-Test",
+   "rating": "0",
+   "enrolled":false
+ },
+    {
+      "batchtype":"closed-batch",
+      "name": "1",
+      "image": "https://ekstep-public-qa.s3-ap-south-1.amazonaws.c…347201109/artifact/images_1528523949775.thumb.jpg",
+      "description": "dsad",
+       "rating": "0"
+      }
+
+ ]
+
+}
